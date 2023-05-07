@@ -1,5 +1,5 @@
 import { createKysely } from '@vercel/postgres-kysely'
 
-import { DB } from '@/lib/types'
+import { DB } from '@/src/lib/types'
 
 export const db = createKysely<DB>()
